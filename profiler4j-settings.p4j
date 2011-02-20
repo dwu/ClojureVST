@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profiler4jProject>
+  <Host>localhost</Host>
+  <Port>7890</Port>
+  <Rules access="PRIVATE" beanProps="true">
+    <Rule action="REJECT">org.apache.*(*)</Rule>
+    <Rule action="REJECT">org.jboss.*(*)</Rule>
+    <Rule action="REJECT">net.sf.jasperreports.*(*)</Rule>
+    <Rule action="REJECT">bsh.*(*)</Rule>
+    <Rule action="REJECT">EDU.oswego.*(*)</Rule>
+    <Rule action="REJECT">org.eclipse.*(*)</Rule>
+    <Rule action="REJECT">org.hsqldb.*(*)</Rule>
+    <Rule action="REJECT">clojure.*__init.*(*)</Rule>
+    <Rule action="ACCEPT">*(*)</Rule>
+  </Rules>
+</Profiler4jProject>
+
